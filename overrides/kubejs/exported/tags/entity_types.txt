@@ -1,0 +1,162 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 29, 2024, 9:50:01 PM
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray
+- minecraft:polar_bear
+- minecraft:snow_golem
+- minecraft:wither
+- mekanism:robit
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanism:robit
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- projecte:fire_projectile
+- projecte:lava_projectile
+- projecte:lens_projectile
+- projecte:swrg_projectile
+- projecte:water_projectile
+- mekanism:flame
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#ftbquests:no_loot_crates
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+- projecte:homing_arrow
+
+#projecte:blacklist/swrg
+
+#projecte:randomizer/peaceful
+- minecraft:sheep
+- minecraft:pig
+- minecraft:cow
+- minecraft:mooshroom
+- minecraft:chicken
+- minecraft:bat
+- minecraft:villager
+- minecraft:squid
+- minecraft:ocelot
+- minecraft:wolf
+- minecraft:horse
+- minecraft:rabbit
+- minecraft:donkey
+- minecraft:mule
+- minecraft:polar_bear
+- minecraft:llama
+- minecraft:parrot
+- minecraft:dolphin
+- minecraft:cod
+- minecraft:salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+- minecraft:turtle
+- minecraft:cat
+- minecraft:fox
+- minecraft:panda
+- minecraft:trader_llama
+- minecraft:wandering_trader
+- minecraft:strider
+- minecraft:glow_squid
+- minecraft:goat
+- minecraft:bee
+
+#mekanism:hurtable_vehicles
+- minecraft:boat
+- minecraft:minecart
+- minecraft:chest_minecart
+- minecraft:command_block_minecart
+- minecraft:furnace_minecart
+- minecraft:hopper_minecart
+- minecraft:spawner_minecart
+- minecraft:tnt_minecart
+- biomesoplenty:boat?
+- byg:boat?
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+
+#projecte:randomizer/hostile
+- minecraft:zombie
+- minecraft:skeleton
+- minecraft:creeper
+- minecraft:spider
+- minecraft:enderman
+- minecraft:silverfish
+- minecraft:zombified_piglin
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:hoglin
+- minecraft:zoglin
+- minecraft:ghast
+- minecraft:blaze
+- minecraft:slime
+- minecraft:witch
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:stray
+- minecraft:wither_skeleton
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:zombie_villager
+- minecraft:husk
+- minecraft:guardian
+- minecraft:evoker
+- minecraft:vex
+- minecraft:vindicator
+- minecraft:shulker
+- minecraft:drowned
+- minecraft:phantom
+- minecraft:pillager
+
+#forge:bosses
+- minecraft:ender_dragon
+- minecraft:wither
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+- mekanism:robit
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid
+
+#projecte:blacklist/interdiction

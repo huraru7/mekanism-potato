@@ -1,0 +1,698 @@
+{
+	id: "7979324BA44C0F73"
+	group: "4933F519004DC5A6"
+	order_index: 1
+	filename: "iron_jetpack"
+	title: "iron jetpack"
+	icon: {
+		id: "ironjetpacks:jetpack"
+		Count: 1b
+		tag: {
+			Id: "ironjetpacks:emerald"
+			Throttle: 1.0d
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.5d
+			y: -3.5d
+			subtitle: "ジェットパック"
+			description: ["FEを使うことで空を飛ぶことができるジェットパックを追加するmodです！"]
+			size: 2.0d
+			id: "4CDDE22FE5274D7F"
+			tasks: [{
+				id: "6234CF63C2F504A9"
+				type: "checkmark"
+				title: "チェックマーク"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			dependencies: ["4CDDE22FE5274D7F"]
+			id: "5AE65DF426414421"
+			tasks: [{
+				id: "7E9B88FEEE451663"
+				type: "item"
+				item: "ironjetpacks:basic_coil"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["5AE65DF426414421"]
+			id: "6ED0200C524D5FEF"
+			tasks: [{
+				id: "26CFF6FCE908AAFF"
+				type: "item"
+				item: "ironjetpacks:advanced_coil"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["6ED0200C524D5FEF"]
+			id: "7F103A96D5AD1D02"
+			tasks: [{
+				id: "0109BEBB59FE3A33"
+				type: "item"
+				item: "ironjetpacks:elite_coil"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["7F103A96D5AD1D02"]
+			id: "4BF46CF4AC832F05"
+			tasks: [{
+				id: "3AC90E8BEB4EA980"
+				type: "item"
+				item: "ironjetpacks:ultimate_coil"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			dependencies: ["5AE65DF426414421"]
+			id: "26F816324C1674BD"
+			tasks: [{
+				id: "4030DB0BF2A1A5A8"
+				type: "item"
+				item: {
+					id: "ironjetpacks:cell"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:wood"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["26F816324C1674BD"]
+			id: "194D9692B4A9909B"
+			tasks: [{
+				id: "48505FAE669B8944"
+				type: "item"
+				item: {
+					id: "ironjetpacks:thruster"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:wood"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			dependencies: ["24F9080CE0B9795E"]
+			id: "392E5D29E2B69C92"
+			tasks: [{
+				id: "30E9EC05EE6051E9"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			dependencies: ["5AE65DF426414421"]
+			id: "5B6443882916E044"
+			tasks: [{
+				id: "37BC95FD333D2478"
+				type: "item"
+				item: {
+					id: "ironjetpacks:cell"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:copper"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["5B6443882916E044"]
+			id: "7AF74855042EB4CD"
+			tasks: [{
+				id: "4E025D2ED1EF0478"
+				type: "item"
+				item: {
+					id: "ironjetpacks:thruster"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:copper"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["0260251FD74999A0"]
+			id: "7BDFBBB46D5EFCA0"
+			tasks: [{
+				id: "3E18BED4CE03247B"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:copper"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			dependencies: ["194D9692B4A9909B"]
+			id: "24F9080CE0B9795E"
+			tasks: [{
+				id: "04ABAB5A11E2DAF6"
+				type: "item"
+				item: {
+					id: "ironjetpacks:capacitor"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:wood"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["7AF74855042EB4CD"]
+			id: "0260251FD74999A0"
+			tasks: [{
+				id: "682AA9B0E9BDE5E8"
+				type: "item"
+				item: {
+					id: "ironjetpacks:capacitor"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:copper"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["5AE65DF426414421"]
+			id: "2AEAA9293F26EF04"
+			tasks: [{
+				id: "2B9CAE8333DB479E"
+				type: "item"
+				item: {
+					id: "ironjetpacks:cell"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:stone"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["2AEAA9293F26EF04"]
+			id: "6422E154B6E9DF88"
+			tasks: [{
+				id: "4C20CD70C960E2EB"
+				type: "item"
+				item: {
+					id: "ironjetpacks:thruster"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:stone"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["6422E154B6E9DF88"]
+			id: "07735782BEC7CF38"
+			tasks: [{
+				id: "0DC7E4764DBF49E7"
+				type: "item"
+				item: {
+					id: "ironjetpacks:capacitor"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:stone"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			dependencies: ["07735782BEC7CF38"]
+			id: "0F511ACBFBD7F7E7"
+			tasks: [{
+				id: "7BEDAF25B9D6AE39"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:stone"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["6ED0200C524D5FEF"]
+			id: "02D07654EB976D7E"
+			tasks: [{
+				id: "50FC1788B438B1AB"
+				type: "item"
+				item: {
+					id: "ironjetpacks:cell"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:bronze"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["02D07654EB976D7E"]
+			id: "4C6009A113F6B778"
+			tasks: [{
+				id: "47B85CEC0075ECB0"
+				type: "item"
+				item: {
+					id: "ironjetpacks:thruster"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:bronze"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["4C6009A113F6B778"]
+			id: "75E31601293DEAB6"
+			tasks: [{
+				id: "1813DCF62F9B85C5"
+				type: "item"
+				item: {
+					id: "ironjetpacks:capacitor"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:bronze"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["75E31601293DEAB6"]
+			id: "32C1804327BFB403"
+			tasks: [{
+				id: "6C325BD5F5C90E8F"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:bronze"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["2CE0BEC79A745CEC"]
+			id: "618D75FA59627E16"
+			tasks: [{
+				id: "0C155D8D04E92DA8"
+				type: "item"
+				item: {
+					id: "ironjetpacks:thruster"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:iron"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["618D75FA59627E16"]
+			id: "02B4982449E3F1E1"
+			tasks: [{
+				id: "75C79A440E2190D2"
+				type: "item"
+				item: {
+					id: "ironjetpacks:capacitor"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:iron"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["02B4982449E3F1E1"]
+			id: "6F7FB3FC4A73DA9F"
+			tasks: [{
+				id: "055DB56E0D48A07B"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:iron"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			dependencies: ["6ED0200C524D5FEF"]
+			id: "2CE0BEC79A745CEC"
+			tasks: [{
+				id: "7A8B7789975DAE62"
+				type: "item"
+				item: {
+					id: "ironjetpacks:cell"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:iron"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["6ED0200C524D5FEF"]
+			id: "39F02B80113C1E8F"
+			tasks: [{
+				id: "33EB72954C09D1C1"
+				type: "item"
+				item: {
+					id: "ironjetpacks:cell"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:gold"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["39F02B80113C1E8F"]
+			id: "12C4A3CEF4AB2AC4"
+			tasks: [{
+				id: "4B6C53AC2B8D479B"
+				type: "item"
+				item: {
+					id: "ironjetpacks:thruster"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:gold"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["12C4A3CEF4AB2AC4"]
+			id: "7539F9416AE3E59E"
+			tasks: [{
+				id: "23DC67E8D62B74B4"
+				type: "item"
+				item: {
+					id: "ironjetpacks:capacitor"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:gold"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			dependencies: ["7539F9416AE3E59E"]
+			id: "747CB4724CA688A1"
+			tasks: [{
+				id: "4A7C3E10C826DD02"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:gold"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["6ED0200C524D5FEF"]
+			id: "60E47C178618A7E3"
+			tasks: [{
+				id: "533B5B8073429D17"
+				type: "item"
+				item: {
+					id: "ironjetpacks:cell"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["60E47C178618A7E3"]
+			id: "763AFDAA44DE2401"
+			tasks: [{
+				id: "7452E28CA2260E72"
+				type: "item"
+				item: {
+					id: "ironjetpacks:thruster"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["763AFDAA44DE2401"]
+			id: "441AEA08974DE0B3"
+			tasks: [{
+				id: "2D92E6EF27B43E01"
+				type: "item"
+				item: {
+					id: "ironjetpacks:capacitor"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["441AEA08974DE0B3"]
+			id: "356C23A15EE0A395"
+			tasks: [{
+				id: "17A2B9F3B0EEA196"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:steel"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["7F103A96D5AD1D02"]
+			id: "74353AFE82B696AE"
+			tasks: [{
+				id: "7F74DF506663E810"
+				type: "item"
+				item: {
+					id: "ironjetpacks:cell"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:diamond"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["74353AFE82B696AE"]
+			id: "06CF359871F7BA45"
+			tasks: [{
+				id: "4668DDDBB09AF9F9"
+				type: "item"
+				item: {
+					id: "ironjetpacks:thruster"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:diamond"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["06CF359871F7BA45"]
+			id: "2230BD5D3DB15C63"
+			tasks: [{
+				id: "260EEC6493FC8A59"
+				type: "item"
+				item: {
+					id: "ironjetpacks:capacitor"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:diamond"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["2230BD5D3DB15C63"]
+			id: "48ADB055BC33FB3F"
+			tasks: [{
+				id: "702678A8A4C1F6BD"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:diamond"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["4BF46CF4AC832F05"]
+			id: "561E226DD8AEC088"
+			tasks: [{
+				id: "7DBF96ECAC3C8D1E"
+				type: "item"
+				item: {
+					id: "ironjetpacks:cell"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:emerald"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["561E226DD8AEC088"]
+			id: "576915FB9C4B1DED"
+			tasks: [{
+				id: "441024BB1476B692"
+				type: "item"
+				item: {
+					id: "ironjetpacks:thruster"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:emerald"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["576915FB9C4B1DED"]
+			id: "580D8676F6089963"
+			tasks: [{
+				id: "73834019CF47C1C0"
+				type: "item"
+				item: {
+					id: "ironjetpacks:capacitor"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:emerald"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["580D8676F6089963"]
+			id: "2E358642DE3CD8B6"
+			tasks: [{
+				id: "39764A272339F26C"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:emerald"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

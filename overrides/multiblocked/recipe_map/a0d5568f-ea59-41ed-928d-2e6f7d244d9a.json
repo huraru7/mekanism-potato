@@ -1,0 +1,526 @@
+{
+  "name": "singularitys",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "0cff6f6f-045c-4b79-b459-d3a2dcc178ca",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:gold_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:gold_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1615c8fb-1777-4b3d-9018-b2afa96f5f68",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:tin_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:tin_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2e995961-f49d-4893-a15b-35ad7e7520a4",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:copper_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:copper_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "35272359-e62a-4196-bf23-6182e0ac0090",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:redstone_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:redstone_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "36024d93-c3f9-4c01-9124-41a4a4d2ebc2",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:uranium_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:uranium_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3653c012-d4d4-493a-bb25-46572ae941b4",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:iron_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:iron_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5c66e179-cbd9-4fcc-a4b1-f8ee378746b8",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:lead_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:lead_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "612b784d-4251-43bf-9ae7-e72f4829c003",
+      "duration": 100,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:potato_gas",
+              "amount": 1000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:potato_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "73a4d25f-92c3-4c00-9e5c-0bcd88e29782",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:bronze_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:bronze_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "793be4bd-cf41-4ad3-a2a9-3e3e21502b7f",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:lapis_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:lapis_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a4acd818-b540-4f3d-ae09-9d2153631da4",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:coal_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:coal_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a920a7a9-5577-4164-8a67-6c18b458abbb",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:emerald_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:emerald_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "abcfb291-f5d5-4f94-be21-d77352cca341",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:refined_obsidian_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:refined_obsidian_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b294a02d-967c-4838-b9ad-d814dd650be8",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:osmium_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:osmium_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "c54aa09a-c0be-4e6c-8ba6-1abbde75ef20",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:steel_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "entity": [
+          {
+            "content": {
+              "type": "minecraft:item",
+              "tag": "{EntityTag:{Item:{Count:1b,id:\"kubejs:steel_singularity\"}}}"
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e4d106b7-d9c8-4d4a-8a93-d7324667d9c3",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:netherite_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:netherite_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "fbae6102-dfad-4110-b521-1456feca7b0f",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:diamond_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:diamond_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ff0c7b42-99a7-412c-b12d-f9702f48c791",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:refined_glowstone_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:refined_glowstone_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

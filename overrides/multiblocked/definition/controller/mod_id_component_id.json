@@ -1,0 +1,201 @@
+{
+  "version": 3,
+  "location": "kubejs:potato_processin",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 40,
+        "y": 103,
+        "autoIO": false
+      }
+    ],
+    "mek_gas": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "x": 77,
+        "y": 81,
+        "autoIO": false,
+        "tankCapability": 100000000
+      }
+    ],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "",
+      "x": 58,
+      "y": 144,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/gregtech_base",
+        "frontTexture": "multiblocked:potato_controller",
+        "type": "gregtech",
+        "postRenderer": false
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle",
+      "sound": {
+        "sound": "mekanism:tile.machine.chargepad",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "singularitys",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "A     A",
+        "       ",
+        "       ",
+        "       "
+      ],
+      [
+        "   A   ",
+        " A   A ",
+        "       ",
+        "       "
+      ],
+      [
+        "  A A  ",
+        "  A A  ",
+        "  A A  ",
+        "       "
+      ],
+      [
+        " A A A ",
+        "   B   ",
+        "   @   ",
+        "   B   "
+      ],
+      [
+        "  A A  ",
+        "  A A  ",
+        "  A A  ",
+        "       "
+      ],
+      [
+        "   A   ",
+        " A   A ",
+        "       ",
+        "       "
+      ],
+      [
+        "A     A",
+        "       ",
+        "       ",
+        "       "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "extendedcrafting:black_iron_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "kubejs:potato_processin",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "minecraft:piston"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ]
+    }
+  }
+}

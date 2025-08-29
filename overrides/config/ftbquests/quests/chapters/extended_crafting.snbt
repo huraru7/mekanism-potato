@@ -1,0 +1,326 @@
+{
+	id: "56695298871285BD"
+	group: "4933F519004DC5A6"
+	order_index: 3
+	filename: "extended_crafting"
+	title: "Extended Crafting"
+	icon: "extendedcrafting:ultimate_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.0d
+			y: 0.0d
+			subtitle: "より広いクラフトを"
+			description: ["5×5などの拡張した作業台を追加してくれます！高価なアイテムや機械はこの拡張された作業台でのレシピに改造されています！"]
+			id: "0C8F70B077D49A54"
+			tasks: [{
+				id: "3BED0073357B6975"
+				type: "checkmark"
+				title: "チェックマーク"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["05AC52C40D2C7882"]
+			id: "5E66CCBDE62B0AA8"
+			tasks: [{
+				id: "319DE90D4A06D252"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["0C8F70B077D49A54"]
+			id: "078B68A6A58C9270"
+			tasks: [{
+				id: "30B084A8D9BF3A9C"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["265C8E2C433815BD"]
+			id: "4E9B308079162EA2"
+			tasks: [{
+				id: "1C3AA131C974E0C9"
+				type: "item"
+				item: "extendedcrafting:basic_component"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["4E9B308079162EA2"]
+			id: "05AC52C40D2C7882"
+			tasks: [{
+				id: "2983E35D1D5E3282"
+				type: "item"
+				item: "extendedcrafting:basic_catalyst"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			dependencies: ["078B68A6A58C9270"]
+			id: "265C8E2C433815BD"
+			tasks: [{
+				id: "371354FA10CEB654"
+				type: "item"
+				item: "extendedcrafting:black_iron_slate"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["507F7E142148B86A"]
+			id: "738D39387A1718F6"
+			tasks: [{
+				id: "5FA44AD9C5A4E243"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			dependencies: ["265C8E2C433815BD"]
+			id: "65FEBB5095064A4F"
+			tasks: [{
+				id: "28662E1E478D9734"
+				type: "item"
+				item: "extendedcrafting:advanced_component"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["65FEBB5095064A4F"]
+			id: "507F7E142148B86A"
+			tasks: [{
+				id: "28BBEACA00F3B7E9"
+				type: "item"
+				item: "extendedcrafting:advanced_catalyst"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["5B3564FE4895E181"]
+			id: "73398885FABBB799"
+			tasks: [{
+				id: "6E93DCBCA007F34A"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["265C8E2C433815BD"]
+			id: "3804B409D1ED1315"
+			tasks: [{
+				id: "000A978BCCA54ADC"
+				type: "item"
+				item: "extendedcrafting:elite_component"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["3804B409D1ED1315"]
+			id: "5B3564FE4895E181"
+			tasks: [{
+				id: "0B13F1D43D7A5EC1"
+				type: "item"
+				item: "extendedcrafting:elite_catalyst"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["1E3F0993DD956305"]
+			id: "513E0FC95D900170"
+			tasks: [{
+				id: "34B2835437761671"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["265C8E2C433815BD"]
+			id: "35E2EEBEE298BE35"
+			tasks: [{
+				id: "6B7DACD94944E2B5"
+				type: "item"
+				item: "extendedcrafting:ultimate_component"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["35E2EEBEE298BE35"]
+			id: "1E3F0993DD956305"
+			tasks: [{
+				id: "4F1641104E977995"
+				type: "item"
+				item: "extendedcrafting:ultimate_catalyst"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: [
+				"15E680B848578C7B"
+				"5E66CCBDE62B0AA8"
+			]
+			id: "5874D63319A3E7D2"
+			tasks: [{
+				id: "0F99F6D5DE16EE25"
+				type: "item"
+				item: "extendedcrafting:basic_auto_table"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			id: "08ED33E451B6C4DE"
+			tasks: [{
+				id: "3BBB0EB2878DE788"
+				type: "item"
+				item: "extendedcrafting:redstone_ingot"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["08ED33E451B6C4DE"]
+			id: "6B603C5AEEA2B44E"
+			tasks: [{
+				id: "78C5CE598172355A"
+				type: "item"
+				item: "extendedcrafting:redstone_component"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			dependencies: ["6B603C5AEEA2B44E"]
+			id: "14DC3CD2798E2A8E"
+			tasks: [{
+				id: "5B2E810C85E4D24D"
+				type: "item"
+				item: "extendedcrafting:redstone_catalyst"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			subtitle: "ちょっとまって！"
+			description: ["本来はウィザーを倒さなければ行けませんが、この世界ではレシピがあります！クラフトすることができます！"]
+			id: "14FFB93AE644CBAE"
+			tasks: [{
+				id: "07549A3EBE16FBF4"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["14FFB93AE644CBAE"]
+			id: "2C21106E43402A01"
+			tasks: [{
+				id: "7882DE798C4873DE"
+				type: "item"
+				item: "extendedcrafting:crystaltine_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["2C21106E43402A01"]
+			id: "7F9DC1DF558DB595"
+			tasks: [{
+				id: "4A4EB681CB403DE7"
+				type: "item"
+				item: "extendedcrafting:crystaltine_component"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			dependencies: ["7F9DC1DF558DB595"]
+			id: "68B2EF6AC84414A8"
+			tasks: [{
+				id: "7DF710BA96626FCA"
+				type: "item"
+				item: "extendedcrafting:crystaltine_catalyst"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: [
+				"15E680B848578C7B"
+				"738D39387A1718F6"
+			]
+			id: "0D4A48AD00EEF0A7"
+			tasks: [{
+				id: "048574C7249AE5F9"
+				type: "item"
+				item: "extendedcrafting:advanced_auto_table"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: [
+				"15E680B848578C7B"
+				"73398885FABBB799"
+			]
+			id: "7AE8AA87EB0E02A2"
+			tasks: [{
+				id: "3285D28CF4820E50"
+				type: "item"
+				item: "extendedcrafting:elite_auto_table"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: [
+				"15E680B848578C7B"
+				"513E0FC95D900170"
+			]
+			id: "743BE32831740E85"
+			tasks: [{
+				id: "2D09532CF382ABB9"
+				type: "item"
+				item: "extendedcrafting:ultimate_auto_table"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: [
+				"14DC3CD2798E2A8E"
+				"68B2EF6AC84414A8"
+			]
+			id: "15E680B848578C7B"
+			tasks: [{
+				id: "6A18715662DEE439"
+				type: "checkmark"
+				title: "自動化への道"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

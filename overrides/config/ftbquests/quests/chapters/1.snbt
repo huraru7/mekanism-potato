@@ -1,0 +1,1380 @@
+{
+	id: "53E54D66B23156E0"
+	group: "53410AFB40F85BA5"
+	order_index: 0
+	filename: "1"
+	title: "&aAlpha"
+	icon: "kubejs:antimatter_blown_potato"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -13.0d
+			y: -2.0d
+			width: 3.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/potato.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			width: 8.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "kubejs:textures/quests/fission_reactor.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 45.0d
+			image: "mekanism:textures/item/basic_control_circuit.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "万物の源"
+			x: -14.950000000000001d
+			y: 0.0d
+			subtitle: "これがジャガイモ、最も基本です。"
+			size: 2.0d
+			id: "17445486FB2A686A"
+			tasks: [{
+				id: "614B28613A58C1EA"
+				type: "item"
+				item: "minecraft:potato"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "6B618C565D7910BA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "200203B471BE8B4E"
+					type: "item"
+					item: {
+						id: "minecraft:iron_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "吹き込みポテト"
+			x: -13.0d
+			y: 0.0d
+			subtitle: "※食べられません"
+			description: ["この世界はほとんど全てのレシピにジャガイモを必要としています！"]
+			dependencies: ["17445486FB2A686A"]
+			id: "7843A73CC629B97C"
+			tasks: [
+				{
+					id: "23346DC3E73CE900"
+					type: "item"
+					item: "kubejs:diamond_blown_potato"
+				}
+				{
+					id: "7F2EC0F486E4652B"
+					type: "item"
+					item: "kubejs:gold_blown_potato"
+				}
+				{
+					id: "74ECA515B37A3FC4"
+					type: "item"
+					item: "kubejs:iron_blown_potato"
+				}
+				{
+					id: "2EC2130A247C8ABA"
+					type: "item"
+					item: "kubejs:redstone_blown_potato"
+				}
+				{
+					id: "0E76832D0B598BFE"
+					type: "item"
+					item: "kubejs:osmium_blown_potato"
+				}
+				{
+					id: "14157180FB8CAA23"
+					type: "item"
+					item: "kubejs:coal_blown_potato"
+				}
+				{
+					id: "117FA91C394DBDB8"
+					type: "item"
+					item: "kubejs:copper_blown_potato"
+				}
+			]
+			rewards: [
+				{
+					id: "36B9CA8E5931477C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "30DDBC291C7FC9B9"
+					type: "item"
+					item: "minecraft:potato"
+					count: 64
+				}
+				{
+					id: "665C0F0046DF33A1"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 6441375040455223572L
+				}
+			]
+		}
+		{
+			title: "吹き込み機"
+			x: -9.75d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["76A5E701E248DC65"]
+			size: 1.5d
+			id: "592D93F0AC6EA11A"
+			tasks: [{
+				id: "4B81799191FDED56"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [
+				{
+					id: "32D89C9B58299AC3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "64350EEA8995DAB7"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "ポテト入り"
+			x: -8.0d
+			y: 3.5d
+			subtitle: "回路は正常に機能します"
+			dependencies: ["0DFFBD4587600A9C"]
+			id: "45BA66D8E732ADA3"
+			tasks: [{
+				id: "17169BB6A6EEB9D6"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "7F15DC48CCB69EB5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0D527CD1E1662086"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["45BA66D8E732ADA3"]
+			id: "794253F6079228E4"
+			tasks: [{
+				id: "75395D098DAF30D6"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "44D24D57011A1722"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "07422AF5BE04339D"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 3.5d
+			dependencies: ["794253F6079228E4"]
+			id: "6E7A26ED5D2CC8FC"
+			tasks: [{
+				id: "2271703BC4BB512A"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "215D8B89BBEECB3E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2800238EAF372B7D"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+				{
+					id: "64BE7D97BEF0AD34"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["6E7A26ED5D2CC8FC"]
+			id: "6C348377FC4DAE5E"
+			tasks: [{
+				id: "1BB43CEFC5AA9ED5"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "01F24D1A07C0123D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3C3498B36AA36FA2"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+				{
+					id: "1600F89D6ED9A631"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "ポテト入り合金"
+			x: -8.0d
+			y: 1.5d
+			subtitle: "※食べられません"
+			dependencies: ["592D93F0AC6EA11A"]
+			id: "0DFFBD4587600A9C"
+			tasks: [{
+				id: "33EE8F7A753E4648"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+			rewards: [
+				{
+					id: "561A46CEB11FC6D5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "28E4A46CA59532D2"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "強化合金"
+			x: -6.5d
+			y: 1.5d
+			subtitle: "※もっと食べられません"
+			dependencies: ["0DFFBD4587600A9C"]
+			id: "3F2CB105ED176BA6"
+			tasks: [{
+				id: "05BA8CB07A5C5714"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [
+				{
+					id: "3251ED78901816D6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "507F6C7904F09DF1"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "原子合金"
+			x: -5.0d
+			y: 1.5d
+			subtitle: "※絶対に食べられません"
+			dependencies: ["3F2CB105ED176BA6"]
+			id: "074D0CDD0742A6DC"
+			tasks: [{
+				id: "139C98B53A4EA20B"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+			rewards: [
+				{
+					id: "2DCB433B0F96C818"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1DB01257AC26C4F7"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "デジタル採掘"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "全自動で採掘！"
+			description: ["この世界ではアップグレードを64枚まで積むことができます！しばらくの資源収集はこの子にお願いしましょう。"]
+			dependencies: [
+				"0FCCF005F8EBC3E6"
+				"42EA455F0CC00CDF"
+				"7286E75B292485E6"
+			]
+			size: 2.0d
+			id: "04DE928E845EF4B3"
+			tasks: [{
+				id: "68F49E7B4956B283"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [
+				{
+					id: "35115CA1457D00A3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1C03DC50FFC729EA"
+					type: "item"
+					item: "kubejs:ethylene_coating_potato"
+					count: 2
+				}
+				{
+					id: "3500EF2D9CCE6476"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 6441375040455223572L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "うわ、私のコスト、、高すぎ...?"
+			dependencies: [
+				"03AC3E16ECBD666A"
+				"3876A3ECFDD3B14C"
+			]
+			size: 2.0d
+			id: "5CF3E0763999C694"
+			tasks: [{
+				id: "18E1AC4B208EBDF5"
+				type: "item"
+				item: "kubejs:antimatter_blown_potato"
+			}]
+			rewards: [
+				{
+					id: "0DE08EA683DFA64C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1D6376C2FAD98515"
+					type: "item"
+					item: "kubejs:potato_ingot"
+					count: 64
+				}
+				{
+					id: "224CBC33970E6405"
+					type: "item"
+					item: "kubejs:potato_ingot"
+					count: 64
+				}
+				{
+					id: "3612ACCFA36752AE"
+					type: "item"
+					item: "kubejs:potato_ingot"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "ここからがマグマなんです"
+			dependencies: ["6C348377FC4DAE5E"]
+			id: "7286E75B292485E6"
+			tasks: [{
+				id: "7A038A9A38C88F0C"
+				type: "item"
+				item: "mekaevolution:absolute_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "479D5CC3705B0ECA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "099969BE75CBD80B"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+				{
+					id: "676D2389E94B026A"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["7286E75B292485E6"]
+			id: "2864BFEDD9D3D40F"
+			tasks: [{
+				id: "490684885F80AE91"
+				type: "item"
+				item: "mekaevolution:supreme_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "0CB962B98B8F4342"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4D26DB434479BD80"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+				{
+					id: "320FCDF29C89639A"
+					type: "item"
+					item: "minecraft:potato"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			dependencies: [
+				"31D5C269C7EBAD28"
+				"2864BFEDD9D3D40F"
+			]
+			id: "1AF0D4D4EB9A8096"
+			tasks: [{
+				id: "7047B40D1F08312C"
+				type: "item"
+				item: "mekaevolution:cosmic_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "5482F3F3B2D94B95"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0E94E323FCC670AD"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: 5.0d
+			dependencies: ["49485F80249C5660"]
+			id: "03AC3E16ECBD666A"
+			tasks: [{
+				id: "3E58A48E30978009"
+				type: "item"
+				item: "mekaevolution:infinite_control_circuit"
+			}]
+			rewards: [
+				{
+					id: "299D10AD95D0FDBF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0EB95BDC44434CF3"
+					type: "item"
+					item: "extendedcrafting:ender_crafter"
+				}
+				{
+					id: "0090893521193FF9"
+					type: "item"
+					item: "extendedcrafting:ender_alternator"
+				}
+			]
+		}
+		{
+			title: "栄養ペースト！"
+			x: -6.5d
+			y: -1.5d
+			description: ["栄養ペーストはこのmodpackにおいて非常に重要です！ジャガイモを畑以外の手段で量産することができます！"]
+			dependencies: ["08E3F6453BAE7A9C"]
+			id: "2919D2312ABBBA33"
+			tasks: [{
+				id: "2878F17CFC20C884"
+				type: "item"
+				item: "mekanism:nutritional_liquifier"
+			}]
+			rewards: [
+				{
+					id: "6A49D2A23CB5D417"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6DBCDDE732CFA0C2"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 64
+				}
+				{
+					id: "5BB8D84EA986B0A7"
+					type: "item"
+					item: "kubejs:compressed_potatos"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "さらなるレシピを求めて..."
+			x: -2.0d
+			y: 0.0d
+			subtitle: "5×5"
+			description: ["5×5の作業台です！3×3のレシピだと簡単すぎるからね、しょうがないね。"]
+			dependencies: ["5031B646E416FB25"]
+			id: "0FCCF005F8EBC3E6"
+			tasks: [{
+				id: "35E8425E57E7F1A6"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [
+				{
+					id: "1E3D7DC130F2C1BA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2B1C2FCFBFF32BEC"
+					type: "item"
+					item: "kubejs:compressed_potatos"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "もちろんポテト入り"
+			x: -4.5d
+			y: 0.0d
+			subtitle: "※もちろん食べられません"
+			description: ["modpackで何かと便利なExtendedCrafting様です。普通に拡張作業台だけじゃなくてインゴットとかシンギュラリティとか追加してくれるのありがたすぎる^^"]
+			dependencies: ["23F771811A3BD350"]
+			id: "5031B646E416FB25"
+			tasks: [{
+				id: "703C1FFCE4126E6F"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+			rewards: [
+				{
+					id: "0B349700D32DD9CF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4DAD4283638D21E5"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "圧縮ポテト"
+			x: -15.0d
+			y: -3.0d
+			subtitle: "かたい、"
+			dependencies: ["17445486FB2A686A"]
+			id: "7C11A392744661C2"
+			tasks: [{
+				id: "5990A11B49A71AAC"
+				type: "item"
+				item: "kubejs:compressed_potatos"
+			}]
+			rewards: [{
+				id: "76360FE2766207E4"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "ポテトインゴット"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "もはやジャガイモの領域を超えている"
+			description: ["重機械加工用ポテト ←????????"]
+			dependencies: ["7C11A392744661C2"]
+			id: "42EA455F0CC00CDF"
+			tasks: [{
+				id: "5B55703D201AD88D"
+				type: "item"
+				item: "kubejs:potato_ingot"
+			}]
+			rewards: [
+				{
+					id: "70EAB2E5171BEDDA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6B7EFE7FBAE09D96"
+					type: "item"
+					item: "minecraft:potato"
+					count: 256
+				}
+			]
+		}
+		{
+			title: "ポテトの棒"
+			x: 2.5d
+			y: -3.0d
+			subtitle: "※某チェーン店のフライドポテトではありません"
+			dependencies: ["42EA455F0CC00CDF"]
+			id: "7FFAE4C48426F998"
+			tasks: [{
+				id: "005E9AD146C6B434"
+				type: "item"
+				item: "kubejs:potato_stick"
+			}]
+			rewards: [
+				{
+					id: "53A3D0D7FA318BC2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "66DBCC14DDB6B2F3"
+					type: "item"
+					item: "mekanism:advanced_bin"
+				}
+			]
+		}
+		{
+			title: "もっと良いポテト達を！"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "※食べられませんよ！"
+			description: ["mekanism終盤に使う鉱石達です！もちろん吹き込んでくださいね＾－＾"]
+			dependencies: ["04DE928E845EF4B3"]
+			id: "48B4627F63C8DD59"
+			tasks: [
+				{
+					id: "3E6696F4A86F4CE4"
+					type: "item"
+					item: "kubejs:uranium_blown_potato"
+				}
+				{
+					id: "567BFFFD73407CBB"
+					type: "item"
+					item: "kubejs:refined_obsidian_blown_potato"
+				}
+				{
+					id: "277E5F0CE301E95F"
+					type: "item"
+					item: "kubejs:lead_blown_potato"
+				}
+			]
+			rewards: [
+				{
+					id: "01A35FC05E44777B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5D5E1D9453E5FBAE"
+					type: "choice"
+					exclude_from_claim_all: true
+					table_id: 6441375040455223572L
+				}
+			]
+		}
+		{
+			title: "浄化室"
+			x: -5.0d
+			y: -1.5d
+			subtitle: "浄化なんです。誰が何と言おうと浄化してます"
+			dependencies: ["2919D2312ABBBA33"]
+			id: "134B8004059D83FD"
+			tasks: [{
+				id: "2269AF3E12E8CEF6"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+			rewards: [
+				{
+					id: "1B34A7386CF31664"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7E832719C128C299"
+					type: "item"
+					item: "kubejs:compressed_potatos"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "青色ポテトの輝くとき"
+			x: -3.5d
+			y: -1.5d
+			subtitle: "よかったね//"
+			description: [
+				"青ジャガイモを使うことで通常のジャガイモより増える倍率が高くなります！"
+				"{image:kubejs:textures/quests/potato_to_bluepotato.png width:132 height:111 align:1}"
+				"他にも色々な倍化方法があるから探してみてね^-^"
+			]
+			dependencies: ["134B8004059D83FD"]
+			id: "41C303AEB85CAA63"
+			tasks: [{
+				id: "555656E6FD2A0AC4"
+				type: "item"
+				item: "minecraft:poisonous_potato"
+			}]
+			rewards: [
+				{
+					id: "4807588D62A650F7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6C2A79D10F23F2D0"
+					type: "item"
+					item: "kubejs:compressed_potatos"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "結晶化ポテト"
+			x: -2.0d
+			y: -1.5d
+			subtitle: "ポテト5倍化,,.,?"
+			description: ["結晶化ポテトは青ジャガイモを4個生産できます！これで倍率4倍ですね！"]
+			dependencies: ["41C303AEB85CAA63"]
+			id: "012F77E42810D0B0"
+			tasks: [{
+				id: "39AD1E5585A3BE13"
+				type: "item"
+				item: "kubejs:crystal_potatos"
+			}]
+			rewards: [
+				{
+					id: "72ABAECAF5B4DE9E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "145C78035CDA2AEB"
+					type: "item"
+					item: "kubejs:compressed_potatos"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "エチレンコーティングポテト"
+			x: -0.5d
+			y: -1.5d
+			subtitle: "少し強いポテト"
+			description: ["エチレンコーティングポテトは結晶化ポテトを4つ生産します！これでまた生産力4倍ですね！"]
+			dependencies: ["012F77E42810D0B0"]
+			id: "60DD19054C9E8E5D"
+			tasks: [{
+				id: "08E5008C2218AC30"
+				type: "item"
+				item: "kubejs:ethylene_coating_potato"
+			}]
+			rewards: [
+				{
+					id: "2B54777C6D332394"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "60DBAFCCA5BA8406"
+					type: "item"
+					item: "kubejs:compressed_potatos"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "原子炉の時間！"
+			x: 8.5d
+			y: 0.0d
+			subtitle: "スーパー駄々っ子"
+			description: ["少しだけ起動させて、1マス原子炉に乗り換えましょう。それがいいです。。"]
+			dependencies: ["2F003523F45289DE"]
+			id: "7B58156AA966C644"
+			tasks: [
+				{
+					id: "01364D87095A0664"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+					count: 68L
+					consume_items: false
+				}
+				{
+					id: "3DE0F602D41AF0E0"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					count: 52L
+				}
+				{
+					id: "6D5FB8CAD5249B32"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+					count: 13L
+				}
+			]
+			rewards: [
+				{
+					id: "48B4E6413CBA471A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "663420F14C6D95B0"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+				}
+				{
+					id: "0272ADAF4F60F2F5"
+					type: "item"
+					item: "mekanism:ingot_uranium"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "ん。。？なにこれ"
+			x: 8.25d
+			y: -2.25d
+			subtitle: "原子炉も圧縮!"
+			description: ["1マスに圧縮された原子炉、何でもかんでも圧縮、工業の基本ですよ?"]
+			size: 1.5d
+			id: "5D2BD49255BCFE26"
+			tasks: [{
+				id: "3FC43E9380A93D74"
+				type: "item"
+				item: "compactmekanismmachines:compact_fission_reactor"
+			}]
+			rewards: [
+				{
+					id: "10AD8247687CABD0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "33F4372D7CAAF4A7"
+					type: "item"
+					item: "compactmekanismmachines:compact_industrial_turbine"
+				}
+			]
+		}
+		{
+			title: "ポロニウム"
+			x: 8.5d
+			y: 2.0d
+			dependencies: ["7B58156AA966C644"]
+			id: "31D5C269C7EBAD28"
+			tasks: [{
+				id: "4C8E88A6DCAE2418"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [{
+				id: "2504728B255DE206"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "プルトニウム"
+			x: 10.0d
+			y: 0.0d
+			description: ["プルトニウムは後々反物質製造で使います！少しづつ製造しておきましょう。"]
+			dependencies: ["7B58156AA966C644"]
+			id: "65D74F4BDE1B7566"
+			tasks: [{
+				id: "5E24E68E56E7890D"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+			rewards: [{
+				id: "16605D04411BBBB9"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "SPS"
+			x: 10.0d
+			y: 2.0d
+			subtitle: "反物質への道。"
+			dependencies: [
+				"65D74F4BDE1B7566"
+				"31D5C269C7EBAD28"
+			]
+			id: "5298AE94C06A30BF"
+			tasks: [
+				{
+					id: "66EED06FB9FAF414"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "24053FDD0AABB336"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 3L
+				}
+				{
+					id: "6C877C12EB492DFE"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+			]
+			rewards: [
+				{
+					id: "6FD954155FD69944"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5D4C96625D8866D5"
+					type: "item"
+					item: "mekanism:solar_neutron_activator"
+				}
+			]
+		}
+		{
+			title: "私がエンドコンテンツだ！"
+			x: 11.5d
+			y: 2.0d
+			subtitle: "※いいえ中間素材です"
+			dependencies: ["5298AE94C06A30BF"]
+			id: "3876A3ECFDD3B14C"
+			tasks: [{
+				id: "40E203405B4EBA35"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [{
+				id: "403C27B400839810"
+				type: "xp"
+				xp: 20
+			}]
+		}
+		{
+			title: "熱発電機"
+			x: -11.5d
+			y: 0.0d
+			subtitle: "(微)熱発電機"
+			dependencies: ["7843A73CC629B97C"]
+			id: "76A5E701E248DC65"
+			tasks: [{
+				id: "08032F567307FE51"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [{
+				id: "491709D8D565E2B0"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "もっとクラフトしたい！"
+			x: -2.0d
+			y: 1.0d
+			subtitle: "modだけに,"
+			dependencies: ["0FCCF005F8EBC3E6"]
+			id: "0B82EB8568FAF236"
+			tasks: [{
+				id: "07605F54D650CF68"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+			rewards: [{
+				id: "362B59FDA1A4966B"
+				type: "item"
+				item: "kubejs:compressed_potatos"
+				count: 8
+			}]
+		}
+		{
+			title: "最上位クラフティング"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "完璧で究極の作業台"
+			dependencies: ["0B82EB8568FAF236"]
+			id: "4C598C72E894C3BB"
+			tasks: [{
+				id: "2346E27D671A5F27"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			rewards: [{
+				id: "1EED3AA7A99B9B5D"
+				type: "item"
+				item: "kubejs:compressed_potatos"
+				count: 8
+			}]
+		}
+		{
+			title: "SDGsです。"
+			x: 10.0d
+			y: -1.5d
+			subtitle: "リサイクルを大事に"
+			description: [
+				"これを作ることで核分裂燃料を2000mb得ることができますが、基本的には使わない、、、、"
+				"このmodpackでは1マス原子炉のレシピに使います！"
+			]
+			dependencies: ["65D74F4BDE1B7566"]
+			id: "13FF4B1D1308E535"
+			tasks: [{
+				id: "40B5D73FC29AF7F1"
+				type: "item"
+				item: "mekanism:reprocessed_fissile_fragment"
+			}]
+			rewards: [
+				{
+					id: "7E24DA47C618647E"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+					count: 4
+				}
+				{
+					id: "0DC70C4B7C94402A"
+					type: "item"
+					item: "mekanism:pellet_plutonium"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "オスミウム圧縮機"
+			x: -11.0d
+			y: 1.5d
+			dependencies: ["592D93F0AC6EA11A"]
+			id: "00A943621E04B1DF"
+			tasks: [{
+				id: "023FEEB322907148"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [{
+				id: "4571772C9C1A62D9"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+				count: 8
+			}]
+		}
+		{
+			title: "濃縮室"
+			x: -8.0d
+			y: 0.0d
+			subtitle: "鉱石は2倍化"
+			dependencies: ["592D93F0AC6EA11A"]
+			id: "23F771811A3BD350"
+			tasks: [{
+				id: "2EDAF0E1F9E773E2"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			title: "電気精錬機"
+			x: -9.75d
+			y: 1.5d
+			dependencies: ["592D93F0AC6EA11A"]
+			id: "7A2C275E81EB8A18"
+			tasks: [{
+				id: "29FDB3EB91266E65"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+			rewards: [{
+				id: "38721536B4D843D6"
+				type: "item"
+				item: "mekanism:upgrade_speed"
+			}]
+		}
+		{
+			title: "ガス発電機"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "ポテトで発電！"
+			dependencies: ["48B4627F63C8DD59"]
+			id: "043B7FB576BFD4F0"
+			tasks: [{
+				id: "3B232BACD43F9755"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [
+				{
+					id: "3A7C6C41C55A810C"
+					type: "item"
+					item: "mekanismgenerators:gas_burning_generator"
+				}
+				{
+					id: "7B246012ABBED7EC"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "同位体遠心分離機"
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["043B7FB576BFD4F0"]
+			id: "2F003523F45289DE"
+			tasks: [{
+				id: "697F88D62FE4B9E5"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "42AD2264D5A89D64"
+					type: "item"
+					item: "kubejs:compressed_potatos"
+					count: 16
+				}
+				{
+					id: "20813C4CCB515C83"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "加圧反応"
+			x: -8.0d
+			y: -1.5d
+			subtitle: "この世界において一番万能な機械"
+			description: ["この機械でジャガイモを増殖したり、エンドコンテンツのアイテムを複製したりすることができます！"]
+			dependencies: ["23F771811A3BD350"]
+			id: "08E3F6453BAE7A9C"
+			tasks: [{
+				id: "2C0DC76C3AD96E84"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [{
+				id: "267C0C8B58F0C63E"
+				type: "item"
+				item: "kubejs:compressed_potatos"
+				count: 8
+			}]
+		}
+		{
+			title: "おい！ジャガイモ育たないぞ！"
+			x: -13.0d
+			y: 1.5d
+			subtitle: "せっかちさんへ"
+			description: ["任意の苗木を4個集めることで骨粉を3個作ることができます！しばらくはこれで耐えましょう。"]
+			id: "072817789A2CC447"
+			tasks: [{
+				id: "73FAA65318AFAD37"
+				type: "item"
+				item: "minecraft:bone_meal"
+			}]
+			rewards: [{
+				id: "76C9D5CA80132A3D"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 64
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			dependencies: ["1AF0D4D4EB9A8096"]
+			id: "41939524DF7A6D47"
+			tasks: [{
+				id: "467271E5C8E356BC"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [
+				{
+					id: "11FFF003B2C09CB8"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+					count: 3
+				}
+				{
+					id: "386BCE96BAFB204E"
+					type: "item"
+					item: "ae2:singularity"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			dependencies: ["41939524DF7A6D47"]
+			id: "49485F80249C5660"
+			tasks: [
+				{
+					id: "6D70FC1BA2FAD053"
+					type: "item"
+					item: "extendedcrafting:ender_crafter"
+				}
+				{
+					id: "7586FE99B12FD82C"
+					type: "item"
+					item: "extendedcrafting:ender_alternator"
+				}
+			]
+			rewards: [{
+				id: "3FBB646D001F4BAC"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 16
+			}]
+		}
+		{
+			title: "風力発電機"
+			x: -10.5d
+			y: -1.5d
+			subtitle: "やっぱりこれじゃないとね"
+			dependencies: ["76A5E701E248DC65"]
+			id: "330FAC8346AC487D"
+			tasks: [{
+				id: "77BE6516E99C8E22"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [
+				{
+					id: "22D867FB2AF17C34"
+					type: "item"
+					item: "compactmekanismmachines:compressed_wind_generator_x2"
+				}
+				{
+					id: "712F1713A5BAAA12"
+					type: "item"
+					item: "minecraft:potato"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "核融合へ. . ."
+			x: 7.0d
+			y: 2.0d
+			dependencies: ["31D5C269C7EBAD28"]
+			id: "473883F382ACD357"
+			tasks: [
+				{
+					id: "271E22F03DE6CB40"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					count: 36L
+				}
+				{
+					id: "5373938CFF79B727"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "2D7D7B4DBCF5C559"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "78F9758B68D61520"
+				type: "item"
+				item: "mekanism:laser_amplifier"
+				count: 2
+			}]
+		}
+		{
+			title: "注意："
+			x: 12.5d
+			y: 1.0d
+			subtitle: "反物質ペレットは複製できますが、、、"
+			description: ["反物質ペレットは加圧反応室で複製することができますが、加工時間は1200t、消費電力は40MFE/tに設定されています。"]
+			dependencies: ["3876A3ECFDD3B14C"]
+			id: "69C5F318A37738B7"
+			tasks: [{
+				id: "7AE30FCCCAB9EFAC"
+				type: "checkmark"
+				title: "ｔ"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

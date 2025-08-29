@@ -1,0 +1,6 @@
+{
+	chapter_groups: [
+		{ id: "53410AFB40F85BA5", title: "メインチャプター" }
+		{ id: "4933F519004DC5A6", title: "サイドチャプター" }
+	]
+}

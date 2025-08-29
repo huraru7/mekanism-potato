@@ -1,0 +1,125 @@
+{
+	id: "3A133B3C10C6698C"
+	group: "53410AFB40F85BA5"
+	order_index: 2
+	filename: "3"
+	title: "creatives"
+	icon: "ae2:creative_item_cell"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -3.0d
+			subtitle: "無限のアイテムを、"
+			dependencies: ["278739BD4F16801A"]
+			size: 2.0d
+			id: "77519F210C37C62C"
+			tasks: [{
+				id: "022A9ECC24417EF9"
+				type: "item"
+				item: "mekanism:creative_bin"
+			}]
+		}
+		{
+			title: "最後のpotato"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "ただのエンドコンテンツ"
+			description: ["このmodpackではhuranium_ingotを作るのが予定している目標です！時間がある方はどうぞ,,,,"]
+			dependencies: ["5E2352D1FBD2B422"]
+			id: "278739BD4F16801A"
+			tasks: [{
+				id: "562B2DD6B3446503"
+				type: "item"
+				item: "kubejs:huranium_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "無限のエネルギーを、"
+			dependencies: ["278739BD4F16801A"]
+			size: 2.0d
+			id: "591B9651213F21A2"
+			tasks: [{
+				id: "0747CB8EF6713DF3"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "無限のアイテム達を、"
+			dependencies: ["278739BD4F16801A"]
+			size: 2.0d
+			id: "78B8AA11A0BBF0FE"
+			tasks: [{
+				id: "09254A01165ADC5D"
+				type: "item"
+				item: "ae2:creative_item_cell"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			dependencies: ["78B8AA11A0BBF0FE"]
+			id: "0B4F4E1952E288CA"
+			tasks: [{
+				id: "64E64E4A336FF3D0"
+				type: "item"
+				item: "ae2:creative_fluid_cell"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.5d
+			dependencies: ["78B8AA11A0BBF0FE"]
+			id: "65BFCFCC213DB844"
+			tasks: [{
+				id: "5DA290A434FFC673"
+				type: "item"
+				item: "appmek:creative_chemical_cell"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			subtitle: "無限の液体を、"
+			dependencies: ["278739BD4F16801A"]
+			size: 2.0d
+			id: "1C6EC84DC37D697A"
+			tasks: [{
+				id: "755C93B2205EE648"
+				type: "item"
+				item: "mekanism:creative_fluid_tank"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			subtitle: "無限の気体を、"
+			dependencies: ["278739BD4F16801A"]
+			size: 2.0d
+			id: "5B8E0E3C35724440"
+			tasks: [{
+				id: "53099AA7062404DE"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

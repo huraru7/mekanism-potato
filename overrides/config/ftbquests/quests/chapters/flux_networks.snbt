@@ -1,0 +1,149 @@
+{
+	id: "38B2587E2C7F69C3"
+	group: "4933F519004DC5A6"
+	order_index: 2
+	filename: "flux_networks"
+	title: "Flux Networks"
+	icon: "fluxnetworks:flux_plug"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: 0.0d
+			subtitle: "無線電線"
+			description: ["エネルギーを無線で輸送、貯蓄ができるようにするmodです！すごく便利. . "]
+			id: "35C59DED21574C6C"
+			tasks: [{
+				id: "47F0DEB60836BB2A"
+				type: "checkmark"
+				title: "チェックマーク"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: [
+				"772126C87C9ED873"
+				"499D918C12D30A7A"
+			]
+			id: "5725B41AA6C3D293"
+			tasks: [{
+				id: "19DD7D7C826C3035"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["35C59DED21574C6C"]
+			id: "772126C87C9ED873"
+			tasks: [{
+				id: "6D6F7AD199CA7E90"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["35C59DED21574C6C"]
+			id: "499D918C12D30A7A"
+			tasks: [{
+				id: "6D7039570A8ED900"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["5725B41AA6C3D293"]
+			id: "226D403C0ED93258"
+			tasks: [{
+				id: "175D7EDF938C664B"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["226D403C0ED93258"]
+			id: "7E5E73E33C26B5BA"
+			tasks: [{
+				id: "6331079FBB959117"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["7E5E73E33C26B5BA"]
+			id: "6CACDFF549C6D81E"
+			tasks: [{
+				id: "0352A26361D481F8"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["7E5E73E33C26B5BA"]
+			id: "58D9542EADAC9826"
+			tasks: [{
+				id: "64B584ED3BF612EF"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["7E5E73E33C26B5BA"]
+			id: "30C6A9E1DAF5BB8A"
+			tasks: [{
+				id: "2C4F908150DC977E"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["6CACDFF549C6D81E"]
+			id: "359E8404989F6ED1"
+			tasks: [{
+				id: "26CE8D281C47B4BD"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["359E8404989F6ED1"]
+			id: "2756C203468A7C63"
+			tasks: [{
+				id: "6FB1CCBDD42F8011"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["2756C203468A7C63"]
+			id: "201F95752832675B"
+			tasks: [{
+				id: "38184BFCE312F5CE"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

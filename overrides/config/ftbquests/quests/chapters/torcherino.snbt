@@ -1,0 +1,112 @@
+{
+	id: "59D8B81BEC63C351"
+	group: "4933F519004DC5A6"
+	order_index: 0
+	filename: "torcherino"
+	title: "torcherino"
+	icon: "torcherino:torcherino"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "時は加速する. . . "
+			dependencies: [
+				"721853D11A2B4741"
+				"1A81AC57F3388238"
+				"249DDDEA763BA960"
+			]
+			size: 2.0d
+			id: "17E00138CA996148"
+			tasks: [{
+				id: "2657A16BA96B771D"
+				type: "item"
+				item: "torcherino:torcherino"
+			}]
+			rewards: [{
+				id: "2B477EE76A0486BE"
+				type: "item"
+				item: "mekanism:upgrade_speed"
+				count: 64
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			dependencies: ["11F61C29438FCB23"]
+			id: "249DDDEA763BA960"
+			tasks: [{
+				id: "332D629700C35521"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["11F61C29438FCB23"]
+			id: "721853D11A2B4741"
+			tasks: [{
+				id: "072E7E4BF4005BF8"
+				type: "item"
+				item: "mekaevolution:infinite_control_circuit"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: ["11F61C29438FCB23"]
+			id: "1A81AC57F3388238"
+			tasks: [{
+				id: "003CB5D7232663C2"
+				type: "item"
+				item: "kubejs:antimatter_blown_potato"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "時はもっと加速する"
+			dependencies: ["17E00138CA996148"]
+			size: 2.0d
+			id: "3AF4CE8A0AE1D3FD"
+			tasks: [{
+				id: "2663CAC2DE5B88C9"
+				type: "item"
+				item: "torcherino:compressed_torcherino"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "最大火力。"
+			dependencies: ["3AF4CE8A0AE1D3FD"]
+			size: 2.0d
+			id: "2B577872CB71B95F"
+			tasks: [{
+				id: "17822894DA9DDDB3"
+				type: "item"
+				item: "torcherino:double_compressed_torcherino"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			subtitle: "時間を加速させる"
+			description: ["Torcherinoは置いた周囲の時間を加速させることができる松明を追加するmodです！ コストが非常に高いですがその分強力な物です。modpackの終盤を助けてくれるでしょう。"]
+			id: "11F61C29438FCB23"
+			tasks: [{
+				id: "6A74EFA8563B5EFA"
+				type: "checkmark"
+				title: "Torcherino"
+			}]
+			rewards: [{
+				id: "05AA85FD2BA77B21"
+				type: "xp"
+				xp: 20
+			}]
+		}
+	]
+	quest_links: [ ]
+}
