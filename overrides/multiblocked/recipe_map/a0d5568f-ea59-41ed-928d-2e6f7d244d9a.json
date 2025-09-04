@@ -294,6 +294,35 @@
       }
     },
     {
+      "uid": "9b277ae9-7f74-4b9d-8877-7ea98facf0bf",
+      "duration": 200,
+      "inputs": {
+        "mek_gas": [
+          {
+            "content": {
+              "type": "kubejs:steel_blown_potato_gas",
+              "amount": 10000000
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "kubejs:steel_singularity"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
       "uid": "a4acd818-b540-4f3d-ae09-9d2153631da4",
       "duration": 200,
       "inputs": {
@@ -403,32 +432,6 @@
               "ingredient": {
                 "item": "kubejs:osmium_singularity"
               }
-            },
-            "chance": 1.0
-          }
-        ]
-      }
-    },
-    {
-      "uid": "c54aa09a-c0be-4e6c-8ba6-1abbde75ef20",
-      "duration": 200,
-      "inputs": {
-        "mek_gas": [
-          {
-            "content": {
-              "type": "kubejs:steel_blown_potato_gas",
-              "amount": 10000000
-            },
-            "chance": 1.0
-          }
-        ]
-      },
-      "outputs": {
-        "entity": [
-          {
-            "content": {
-              "type": "minecraft:item",
-              "tag": "{EntityTag:{Item:{Count:1b,id:\"kubejs:steel_singularity\"}}}"
             },
             "chance": 1.0
           }

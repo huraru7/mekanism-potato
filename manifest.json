@@ -12,6 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Mekanism Potatos",
+  "version": "1.1.2",
   "author": "",
   "files": [
     {
@@ -115,8 +116,8 @@
       "required": true
     },
     {
-      "projectID": 367706,
-      "fileID": 6785119,
+      "projectID": 399558,
+      "fileID": 4393837,
       "required": true
     },
     {
@@ -125,8 +126,8 @@
       "required": true
     },
     {
-      "projectID": 399558,
-      "fileID": 4393837,
+      "projectID": 367706,
+      "fileID": 6785119,
       "required": true
     },
     {
@@ -155,13 +156,13 @@
       "required": true
     },
     {
-      "projectID": 574300,
-      "fileID": 3968835,
+      "projectID": 256717,
+      "fileID": 4153344,
       "required": true
     },
     {
-      "projectID": 256717,
-      "fileID": 4153344,
+      "projectID": 574300,
+      "fileID": 3968835,
       "required": true
     },
     {
@@ -175,13 +176,13 @@
       "required": true
     },
     {
-      "projectID": 631278,
-      "fileID": 4359303,
+      "projectID": 854474,
+      "fileID": 4628491,
       "required": true
     },
     {
-      "projectID": 854474,
-      "fileID": 4628491,
+      "projectID": 631278,
+      "fileID": 4359303,
       "required": true
     },
     {
@@ -195,13 +196,13 @@
       "required": true
     },
     {
-      "projectID": 289412,
-      "fileID": 6113498,
+      "projectID": 626676,
+      "fileID": 4732622,
       "required": true
     },
     {
-      "projectID": 626676,
-      "fileID": 4732622,
+      "projectID": 289412,
+      "fileID": 6113498,
       "required": true
     },
     {
@@ -250,18 +251,13 @@
       "required": true
     },
     {
-      "projectID": 248020,
-      "fileID": 4713885,
-      "required": true
-    },
-    {
       "projectID": 351264,
       "fileID": 4513187,
       "required": true
     },
     {
-      "projectID": 268387,
-      "fileID": 4430386,
+      "projectID": 248020,
+      "fileID": 4713885,
       "required": true
     },
     {
@@ -270,19 +266,24 @@
       "required": true
     },
     {
-      "projectID": 419699,
-      "fileID": 5137931,
+      "projectID": 268387,
+      "fileID": 4430386,
       "required": true
     },
     {
-      "projectID": 238222,
-      "fileID": 5846864,
+      "projectID": 419699,
+      "fileID": 5137931,
       "required": true
     },
     {
       "projectID": 454372,
       "fileID": 6034709,
       "required": false
+    },
+    {
+      "projectID": 238222,
+      "fileID": 5846864,
+      "required": true
     },
     {
       "projectID": 844063,
