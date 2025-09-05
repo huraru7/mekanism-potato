@@ -1,5 +1,5 @@
 # mods 内の jar ファイルは無視
-/mods/*.jar
+/mods/
 
 # 不要なログや一時データ
 /backups/
