@@ -246,6 +246,12 @@
 				type: "item"
 				item: "megacells:cell_component_16m"
 			}]
+			rewards: [{
+				id: "1BF3D7A7AE619255"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+				count: 3
+			}]
 		}
 		{
 			x: 0.0d
@@ -676,6 +682,11 @@
 				id: "48E6723CE1566CD6"
 				type: "item"
 				item: "mekaevolution:qio_drive_absolute"
+			}]
+			rewards: [{
+				id: "0F8AC9F2A4C4C32B"
+				type: "item"
+				item: "ae2:256k_crafting_storage"
 			}]
 		}
 		{
