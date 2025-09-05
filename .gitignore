@@ -1,0 +1,19 @@
+# mods 内の jar ファイルは無視
+/mods/*.jar
+
+# 不要なログや一時データ
+/backups/
+/crash-reports/
+/datapacks/
+/defaultconfigs/
+/downloads/
+/journeymap/
+/ldlid/
+/local/
+/logs/
+/saves/
+/options.txt
+/usercache.json
+/usernamecache.json
+/minecraftinstance.json
+/user-prefs.json
