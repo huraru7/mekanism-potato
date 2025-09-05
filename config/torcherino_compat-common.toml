@@ -1,0 +1,12 @@
+
+#Torcherino Compat Common Config.
+[mekanism]
+
+	#Fission Reactor Compatibility Config.
+	[mekanism.fission_reactor]
+		#Temporarily pause acceleration if a burning fission reactor is damaged.
+		damageProtection = true
+		#Threshold for fission reactor damage.
+		#Range: 0 ~ 100
+		damageThreshold = 0
+

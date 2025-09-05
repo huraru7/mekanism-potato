@@ -1,0 +1,54 @@
+
+#Mekanism More Capacity Config. This config is synced from server to client.
+[more_capacity]
+
+	[more_capacity.boiler]
+		#Water tank capacity multiplier. Default: 1,600,000, Vanilla: 16,000
+		#Range: 1 ~ 9223372036854775807
+		waterTankCapacityMultiplier = 1600000
+		#Steam tank capacity multiplier. Default: 16,000,000, Vanilla: 160,000
+		#Range: 1 ~ 9223372036854775807
+		steamTankCapacityMultiplier = 16000000
+		#Cooled coolant tank capacity multiplier. Default: 25,600,000, Vanilla: 256,000
+		#Range: 1 ~ 9223372036854775807
+		cooledCoolantCapacityMultiplier = 25600000
+		#Superheated coolant tank capacity multiplier. Default: 25,600,000, Vanilla: 256,000
+		#Range: 1 ~ 9223372036854775807
+		superheatedCoolantCapacityMultiplier = 25600000
+		#Steam energy efficiency multiplier. Default: 100, Vanilla: 1
+		steamEnergyEfficiency = 100.0
+		#Water energy efficiency multiplier. Default: 1, Vanilla: 1
+		waterEnergyEfficiency = 1.0
+
+	[more_capacity.evaporation]
+		#Output tank capacity (mB). Default: 2,147,483,647, Vanilla: 10,000
+		outputTankCapacity = 2147483647
+
+	[more_capacity.fission]
+		#Fluid coolant tank capacity (mB). Default: 368,224, Vanilla: 100,000
+		fluidCoolantTankCapacity = 368224
+		#Gas coolant tank capacity (mB). Default: 368,224, Vanilla: 100,000
+		#Range: 1 ~ 9223372036854775807
+		gasCoolantTankCapacity = 368224
+		#Heated coolant tank capacity (mB). Default: 10,000,000, Vanilla: 1,000,000
+		#Range: 1 ~ 9223372036854775807
+		heatedCoolantTankCapacity = 10000000
+
+	[more_capacity.fusion]
+		#Energy capacity (Joules). Default: 18,446,744,073,709,551,615.9999, Vanilla: 1,000,000,000
+		energyCapacity = "18446744073709551615.9999"
+		#Deuterium tank capacity (mB). Default: 1,000,000, Vanilla: 1,000
+		deuteriumTankCapacity = "1000000"
+		#Tritium tank capacity (mB). Default: 1,000,000, Vanilla: 1,000
+		tritiumTankCapacity = "1000000"
+		#Fuel tank capacity (mB). Default: 1,000,000, Vanilla: 1,000
+		fuelTankCapacity = "1000000"
+
+	[more_capacity.sps]
+		#Input tank capacity (mB). Default: 2,000, Vanilla: 2
+		#Range: 1 ~ 9223372036854775807
+		inputTankCapacityMultiplier = 2000
+		#Output tank capacity (mB). Default: 1,000,000, Vanilla: 1,000
+		#Range: 1 ~ 9223372036854775807
+		outputTankCapacity = 1000000
+

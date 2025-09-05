@@ -1,0 +1,767 @@
+{
+	id: "5E2352D1FBD2B422"
+	group: "53410AFB40F85BA5"
+	order_index: 1
+	filename: "beta"
+	title: "Beta"
+	icon: "kubejs:huranium_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "huranium ingot"
+			icon: "kubejs:huranium_ingot"
+			x: 7.5d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "有り余るジャガイモの終着点"
+			description: [
+				"このmodpackの目標はこのhuraniumIngotを作成することです！その先はエンドコンテンツですので、攻略はご自由にどうぞ！"
+				"ここまでに使ったポテトの量は覚えていますか..?"
+			]
+			dependencies: [
+				"102E4242A81A6D96"
+				"47BEED5715837F98"
+				"254DD6862115F43D"
+				"15806DC7D9CF6BFB"
+				"73A0DC8E6ABC3461"
+			]
+			size: 3.0d
+			id: "5B76977B78AE675B"
+			tasks: [{
+				id: "3062679C5BB81E16"
+				type: "item"
+				item: "kubejs:huranium_ingot"
+			}]
+			rewards: [
+				{
+					id: "300B3A761309E910"
+					type: "item"
+					item: "extendedcrafting:ultimate_singularity"
+				}
+				{
+					id: "46433642DAAA2FA3"
+					type: "xp"
+					xp: 2147483647
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			dependencies: [
+				"1C72260779C2EC45"
+				"7733433EDE56160F"
+				"00D9B58523390309"
+				"059997AD79C3AE41"
+				"4E88836701F4489C"
+				"52448364CB082B35"
+				"3731AF17A086D122"
+				"0A66E276DC8F67AC"
+				"07EAC834802D787B"
+				"69D2A6CB0FC40E95"
+				"272424908206B602"
+				"574686A3417338CC"
+				"6E2CAC7F1D9C0230"
+				"301866DC87E8670B"
+				"374904B83FD425C4"
+				"2D99E34D90182FD0"
+				"2B53D109B0852D40"
+				"1040881FBB0BADDC"
+			]
+			size: 2.0d
+			id: "102E4242A81A6D96"
+			tasks: [{
+				id: "5FEC36CF05EB7CDC"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [{
+				id: "5E7CF053687A466B"
+				type: "item"
+				item: "kubejs:compressed_potatos"
+				count: 128
+			}]
+		}
+		{
+			title: "ポテトによるポテトのポテトのための機械"
+			x: -6.0d
+			y: -2.0d
+			description: ["シンギュラリティを製作するのに主に使います！作るのが大変だったのでこれしかmultiblockはありません；ω；"]
+			id: "79FA3BCEBEFF9B65"
+			tasks: [{
+				id: "29E257C0B63A6A27"
+				type: "item"
+				item: "kubejs:potato_processin"
+			}]
+			rewards: [{
+				id: "74FBD557B2D90ED6"
+				type: "item"
+				item: "kubejs:crystal_potatos"
+				count: 64
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			id: "2566658FC3DFF4E9"
+			tasks: [{
+				id: "1629184F9ED8048C"
+				type: "item"
+				item: "extendedcrafting:basic_catalyst"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			id: "637E28A8DCF9B6E5"
+			tasks: [{
+				id: "3E5286C4E246DBBA"
+				type: "item"
+				item: "extendedcrafting:advanced_catalyst"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.5d
+			id: "75B16C79C82EDA35"
+			tasks: [{
+				id: "45D30B9B746D1398"
+				type: "item"
+				item: "extendedcrafting:elite_catalyst"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.5d
+			id: "5BE7D36CDBEDDDF6"
+			tasks: [{
+				id: "7DF24F87CF982F24"
+				type: "item"
+				item: "extendedcrafting:ultimate_catalyst"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			id: "668C3D3D7A097CC4"
+			tasks: [{
+				id: "2EC4E7B944E5ED24"
+				type: "item"
+				item: "extendedcrafting:redstone_catalyst"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			id: "03AB6ACFBE2948EA"
+			tasks: [{
+				id: "7457DD188E650FD9"
+				type: "item"
+				item: "extendedcrafting:ender_catalyst"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.5d
+			id: "0726DAC4CEE9A1D7"
+			tasks: [{
+				id: "280DB8CD108584A3"
+				type: "item"
+				item: "extendedcrafting:enhanced_ender_catalyst"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			id: "69487ED31294E1B0"
+			tasks: [{
+				id: "33D6B2BB5D410681"
+				type: "item"
+				item: "extendedcrafting:crystaltine_catalyst"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			dependencies: [
+				"5BE7D36CDBEDDDF6"
+				"75B16C79C82EDA35"
+				"03AB6ACFBE2948EA"
+				"637E28A8DCF9B6E5"
+				"0726DAC4CEE9A1D7"
+				"668C3D3D7A097CC4"
+				"2566658FC3DFF4E9"
+				"69487ED31294E1B0"
+			]
+			id: "2193959471A9CC38"
+			tasks: [{
+				id: "1E5A8535C8289B37"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_nugget"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["2193959471A9CC38"]
+			id: "190B6793AB6B1A5D"
+			tasks: [{
+				id: "0111B2274AEBC071"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["190B6793AB6B1A5D"]
+			id: "39DCB07B7000A752"
+			tasks: [{
+				id: "4CEF09736BEC15DE"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_component"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			dependencies: ["39DCB07B7000A752"]
+			size: 2.0d
+			id: "73A0DC8E6ABC3461"
+			tasks: [{
+				id: "247AFC79E5778F3C"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_catalyst"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["38DED9DADDEC73DD"]
+			size: 2.0d
+			id: "47BEED5715837F98"
+			tasks: [{
+				id: "4308E30C33AD63BE"
+				type: "item"
+				item: "megacells:cell_component_16m"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			dependencies: ["1098025FBF3DA043"]
+			id: "38DED9DADDEC73DD"
+			tasks: [{
+				id: "1587F940BE3E9885"
+				type: "item"
+				item: "megacells:cell_component_4m"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["054E952EB7B316BA"]
+			id: "1098025FBF3DA043"
+			tasks: [{
+				id: "5B6505522D77B229"
+				type: "item"
+				item: "megacells:cell_component_1m"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["284807B5B2177AB8"]
+			id: "054E952EB7B316BA"
+			tasks: [{
+				id: "0B6E5F00F301F44F"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["112DCE458352A749"]
+			id: "284807B5B2177AB8"
+			tasks: [{
+				id: "2B6BDB6F825CA514"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["6DBBBB0DEC214460"]
+			id: "112DCE458352A749"
+			tasks: [{
+				id: "042E9B028513A311"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["213DDD9D5D16D30A"]
+			id: "6DBBBB0DEC214460"
+			tasks: [{
+				id: "235EBC5C5A4EBF2F"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			id: "213DDD9D5D16D30A"
+			tasks: [{
+				id: "1E50923B8D97A8C3"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["190B6793AB6B1A5D"]
+			size: 2.0d
+			id: "254DD6862115F43D"
+			tasks: [{
+				id: "5FADD4A26D7C7E7D"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_block"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "1C72260779C2EC45"
+			tasks: [{
+				id: "7F9A6E482CF826F7"
+				type: "item"
+				item: "kubejs:potato_singularity"
+			}]
+			rewards: [{
+				id: "74C5F53A62B0DB5C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "7733433EDE56160F"
+			tasks: [{
+				id: "674692DB11D9BA29"
+				type: "item"
+				item: "kubejs:steel_singularity"
+			}]
+			rewards: [{
+				id: "27C55E3C017EEF84"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "00D9B58523390309"
+			tasks: [{
+				id: "309EFCF69C9327E6"
+				type: "item"
+				item: "kubejs:refined_obsidian_singularity"
+			}]
+			rewards: [{
+				id: "78481ADFBCBCCC25"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -5.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "059997AD79C3AE41"
+			tasks: [{
+				id: "4E2B8B9491DF7574"
+				type: "item"
+				item: "kubejs:refined_glowstone_singularity"
+			}]
+			rewards: [{
+				id: "7890981480635AEE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "52448364CB082B35"
+			tasks: [{
+				id: "5082B0F33E41BA33"
+				type: "item"
+				item: "kubejs:lead_singularity"
+			}]
+			rewards: [{
+				id: "56B294A5A0D4E327"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "4E88836701F4489C"
+			tasks: [{
+				id: "6AE31B46E37EFBA7"
+				type: "item"
+				item: "kubejs:netherite_singularity"
+			}]
+			rewards: [{
+				id: "59749193608143BC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "3731AF17A086D122"
+			tasks: [{
+				id: "392040665B7CA324"
+				type: "item"
+				item: "kubejs:bronze_singularity"
+			}]
+			rewards: [{
+				id: "765E8C72C3FF44D2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "0A66E276DC8F67AC"
+			tasks: [{
+				id: "334BF3585EEBADD5"
+				type: "item"
+				item: "kubejs:redstone_singularity"
+			}]
+			rewards: [{
+				id: "1452A86650750F36"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "07EAC834802D787B"
+			tasks: [{
+				id: "0CA5EF8F8BAEDD47"
+				type: "item"
+				item: "kubejs:iron_singularity"
+			}]
+			rewards: [{
+				id: "2946885BF53E4E9A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "1040881FBB0BADDC"
+			tasks: [{
+				id: "4780A41AD6481B4F"
+				type: "item"
+				item: "kubejs:gold_singularity"
+			}]
+			rewards: [{
+				id: "5A5ACF9C089CC01B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "2B53D109B0852D40"
+			tasks: [{
+				id: "2DBDFEA7916960FC"
+				type: "item"
+				item: "kubejs:diamond_singularity"
+			}]
+			rewards: [{
+				id: "3224D154A8B5B0D0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "2D99E34D90182FD0"
+			tasks: [{
+				id: "00754E7B02E5E649"
+				type: "item"
+				item: "kubejs:lapis_singularity"
+			}]
+			rewards: [{
+				id: "76CA548AB7F3C89B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "374904B83FD425C4"
+			tasks: [{
+				id: "7EBDE71C2EEBFFB1"
+				type: "item"
+				item: "kubejs:emerald_singularity"
+			}]
+			rewards: [{
+				id: "60D12DA6A109CB37"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "301866DC87E8670B"
+			tasks: [{
+				id: "1296F8C8FC4BB4B1"
+				type: "item"
+				item: "kubejs:copper_singularity"
+			}]
+			rewards: [{
+				id: "018D9E77E33AD905"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "6E2CAC7F1D9C0230"
+			tasks: [{
+				id: "518F7AEA1648DFD9"
+				type: "item"
+				item: "kubejs:coal_singularity"
+			}]
+			rewards: [{
+				id: "69EFAD186443A5E1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: -6.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "574686A3417338CC"
+			tasks: [{
+				id: "62E09E3F941BF6CC"
+				type: "item"
+				item: "kubejs:tin_singularity"
+			}]
+			rewards: [{
+				id: "6C6E4A637AFA4274"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "272424908206B602"
+			tasks: [{
+				id: "407F7C095BDD7A18"
+				type: "item"
+				item: "kubejs:uranium_singularity"
+			}]
+			rewards: [{
+				id: "5731021C010E0441"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["79FA3BCEBEFF9B65"]
+			id: "69D2A6CB0FC40E95"
+			tasks: [{
+				id: "6C24BB76FB858421"
+				type: "item"
+				item: "kubejs:osmium_singularity"
+			}]
+			rewards: [{
+				id: "04AD0F0B57C8D007"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			id: "1F88B725A28A75FB"
+			tasks: [{
+				id: "1B0BD772E7F30927"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["1F88B725A28A75FB"]
+			id: "0001911AEB719154"
+			tasks: [{
+				id: "2DA45BD42136EA2B"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["0001911AEB719154"]
+			id: "3003F8255038D93B"
+			tasks: [{
+				id: "5D94DD37A863803D"
+				type: "item"
+				item: "mekanism:qio_drive_time_dilating"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["3003F8255038D93B"]
+			id: "6A146EA938647A08"
+			tasks: [{
+				id: "18866C90DE7C67A0"
+				type: "item"
+				item: "mekanism:qio_drive_supermassive"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["6A146EA938647A08"]
+			size: 2.0d
+			id: "15806DC7D9CF6BFB"
+			tasks: [{
+				id: "48E6723CE1566CD6"
+				type: "item"
+				item: "mekaevolution:qio_drive_absolute"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			subtitle: "huranium_ingotは複製できますが,,,,,"
+			description: [
+				"huraniumingotは加圧反応室で複製することができますが、加工時間は1200t、消費電力は40MFE/tに設定されています。"
+				"エネルギーアップグレードを39枚以上つけないと加工を行うことができません"
+			]
+			dependencies: ["5B76977B78AE675B"]
+			id: "1FFEA0D02E2F734D"
+			tasks: [{
+				id: "5D0D054F53EC5CF5"
+				type: "checkmark"
+				title: "注意！"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			dependencies: ["5B76977B78AE675B"]
+			id: "33CE576C2872896F"
+			tasks: [{
+				id: "63B5A5B0DD8A2328"
+				type: "item"
+				item: "mekaevolution:qio_drive_supreme"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 2.0d
+			dependencies: ["33CE576C2872896F"]
+			id: "1312246E3602FDD8"
+			tasks: [{
+				id: "366ED933C842CD26"
+				type: "item"
+				item: "mekaevolution:qio_drive_cosmic"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			dependencies: ["1312246E3602FDD8"]
+			id: "4A781910B0DB9D1C"
+			tasks: [{
+				id: "5AE803A78A3724C4"
+				type: "item"
+				item: "mekaevolution:qio_drive_infinite"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["5B76977B78AE675B"]
+			id: "3779A5D11D53E59F"
+			tasks: [{
+				id: "5BCF0BE6031F556C"
+				type: "item"
+				item: "megacells:cell_component_64m"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["3779A5D11D53E59F"]
+			id: "07789E54F9C97CE1"
+			tasks: [{
+				id: "1B12F69FEB03CBED"
+				type: "item"
+				item: "megacells:cell_component_256m"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			subtitle: "これも複製が可能です、が、、、"
+			description: ["UltimateSingularityは加圧反応室で複製することができますが、加工時間は1200t、消費電力は40MFE/tに設定されています。"]
+			dependencies: ["102E4242A81A6D96"]
+			id: "270E20FC2F3159E3"
+			tasks: [{
+				id: "6116B80E4B176AA9"
+				type: "checkmark"
+				title: "注意："
+			}]
+		}
+	]
+	quest_links: [ ]
+}
