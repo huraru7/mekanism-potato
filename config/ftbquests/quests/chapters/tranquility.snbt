@@ -4,8 +4,20 @@
 	order_index: 0
 	filename: "tranquility"
 	title: "Tranquility"
+	icon: "mekanism:digital_miner"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 7.0d
+		y: 0.0d
+		shape: "gear"
+		size: 2.0d
+		id: "6B5E96E7A7DD1907"
+		tasks: [{
+			id: "41FF688216978F1A"
+			type: "item"
+			item: "mekanism:digital_miner"
+		}]
+	}]
 	quest_links: [ ]
 }

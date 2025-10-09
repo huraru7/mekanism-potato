@@ -4,8 +4,20 @@
 	order_index: 4
 	filename: "divinity"
 	title: "Divinity"
+	icon: "kubejs:huranium_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		size: 2.0d
+		id: "3036B7A1482791F3"
+		tasks: [{
+			id: "61E989F5B5CBAD1A"
+			type: "item"
+			item: "kubejs:huranium_ingot"
+		}]
+	}]
 	quest_links: [ ]
 }

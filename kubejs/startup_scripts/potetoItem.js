@@ -1,11 +1,11 @@
 onEvent("item.registry", (event) => {
 	event
-		.create("huranium_ingot") // アイテムのID（適切な名前を付けてください）
+		.create("huranium_ingot") // アイテムのID
 		.displayName("Huranium Ingot") // ゲーム内での表示名
 		.texture("kubejs:item/huranium_ingot") // テクスチャのリソースロケーション
-		.maxStackSize(16) // 最大スタックサイズ（1-64）
+		.maxStackSize(16) // 最大スタックサイズ
 		.rarity("epic") // レアリティ（common, uncommon, rare, epic）
-		.tooltip("Huraniumとは...?") // ツールチップ（アイテムの説明）
+		.tooltip("Huraniumとは...?") // ツールチップ
 		.glow(true) // エンチャントされたような光る効果
 		.group("kubejs.my_items");
 	event
@@ -33,4 +33,14 @@ onEvent("item.registry", (event) => {
 		.displayName("Potato Stick")
 		.texture("kubejs:item/potato_stick")
 		.group("kubejs.my_items");
+});
+
+onEvent("block.registry", (event) => {
+	event
+		.create("potato_block") // ジャガイモブロック
+		.displayName("potato block")
+		.hardness(1)
+		.resistance(3)
+		.texture("kubejs:block/potato_block")
+		.maxStackSize(64);
 });

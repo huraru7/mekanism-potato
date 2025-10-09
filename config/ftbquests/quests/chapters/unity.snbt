@@ -4,8 +4,20 @@
 	order_index: 1
 	filename: "unity"
 	title: "Unity"
+	icon: "compactmekanismmachines:compact_fission_reactor"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		size: 2.0d
+		id: "195F7872C0B546CA"
+		tasks: [{
+			id: "6068580DC375F448"
+			type: "item"
+			item: "compactmekanismmachines:compact_fission_reactor"
+		}]
+	}]
 	quest_links: [ ]
 }

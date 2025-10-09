@@ -6,6 +6,18 @@
 	title: "Infinity"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		hide: true
+		size: 2.0d
+		id: "16A77DB0F4D7BE5C"
+		tasks: [{
+			id: "79F6ED32656C9BC3"
+			type: "item"
+			item: "kubejs:antimatter_blown_potato"
+		}]
+	}]
 	quest_links: [ ]
 }

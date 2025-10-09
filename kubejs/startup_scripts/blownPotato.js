@@ -1,8 +1,7 @@
-// アイテム登録イベントのリスナー
 function createBlownPotato(event, material) {
 	event
 		.create(`${material}_blown_potato`)
-		.displayName(`${material} Blown Potato`)
+		.displayName(`${material} blown potato`)
 		.texture(`kubejs:item/${material}_blown_potato`)
 		.group("kubejs.my_items");
 }

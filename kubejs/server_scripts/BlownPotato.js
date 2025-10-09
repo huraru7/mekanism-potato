@@ -58,48 +58,4 @@ onEvent("recipes", (event) => {
 		"bronze",
 	];
 	materials.forEach((material) => blownPotatoRecipe(event, material));
-	event.shaped(
-		"kubejs:compressed_potatos",
-		[
-			// 圧縮ポテト
-			"AAA",
-			"AAA",
-			"AAA",
-		],
-		{
-			A: "minecraft:potato",
-		}
-	);
-	event.shapeless("9x minecraft:potato", [
-		// 圧縮ポテトを分解
-		"kubejs:compressed_potatos",
-	]);
-	event.shaped(
-		"kubejs:potato_ingot",
-		[
-			// ポテトインゴット
-			"AAA",
-			"AAA",
-			"AAA",
-		],
-		{
-			A: "kubejs:compressed_potatos",
-		}
-	);
-	event.shapeless("9x kubejs:compressed_potatos", [
-		// ポテトインゴットを分解
-		"kubejs:potato_ingot",
-	]);
-	event.shaped(
-		"kubejs:potato_stick",
-		[
-			// ポテト棒
-			"   ",
-			" A ",
-			" A ",
-		],
-		{
-			A: "kubejs:potato_ingot",
-		}
-	);
 });

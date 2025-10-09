@@ -4,8 +4,20 @@
 	order_index: 3
 	filename: "eternity"
 	title: "Eternity"
+	icon: "extendedcrafting:the_ultimate_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		shape: "gear"
+		size: 2.0d
+		id: "23FF5988D72438BF"
+		tasks: [{
+			id: "2D91B0C01F83854A"
+			type: "item"
+			item: "extendedcrafting:the_ultimate_ingot"
+		}]
+	}]
 	quest_links: [ ]
 }
