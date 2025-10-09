@@ -1,0 +1,11 @@
+{
+	id: "2C995545D6122CFD"
+	group: "53410AFB40F85BA5"
+	order_index: 4
+	filename: "divinity"
+	title: "Divinity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

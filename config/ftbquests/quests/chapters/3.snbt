@@ -1,7 +1,7 @@
 {
 	id: "3A133B3C10C6698C"
 	group: "53410AFB40F85BA5"
-	order_index: 2
+	order_index: 5
 	filename: "3"
 	title: "creatives"
 	icon: "ae2:creative_item_cell"
@@ -27,7 +27,6 @@
 			y: 0.0d
 			subtitle: "ただのエンドコンテンツ"
 			description: ["このmodpackではhuranium_ingotを作るのが予定している目標です！時間がある方はどうぞ,,,,"]
-			dependencies: ["5E2352D1FBD2B422"]
 			id: "278739BD4F16801A"
 			tasks: [{
 				id: "562B2DD6B3446503"

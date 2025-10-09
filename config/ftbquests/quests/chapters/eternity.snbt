@@ -1,0 +1,11 @@
+{
+	id: "2D65D24FB9C53695"
+	group: "53410AFB40F85BA5"
+	order_index: 3
+	filename: "eternity"
+	title: "Eternity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

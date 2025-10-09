@@ -1,4 +1,3 @@
-// アイテム登録イベントのリスナー
 onEvent("item.registry", (event) => {
 	event
 		.create("huranium_ingot") // アイテムのID（適切な名前を付けてください）
@@ -34,35 +33,4 @@ onEvent("item.registry", (event) => {
 		.displayName("Potato Stick")
 		.texture("kubejs:item/potato_stick")
 		.group("kubejs.my_items");
-});
-
-function createBlownPotato(event, material) {
-	event
-		.create(`${material}_blown_potato`)
-		.displayName(`${material} Blown Potato`)
-		.texture(`kubejs:item/${material}_blown_potato`)
-		.group("kubejs.my_items");
-}
-onEvent("item.registry", (event) => {
-	const blownPotato = [
-		"coal",
-		"copper",
-		"diamond",
-		"emerald",
-		"gold",
-		"iron",
-		"lapis",
-		"redstone",
-		"osmium",
-		"antimatter",
-		"steel",
-		"tin",
-		"uranium",
-		"refined_obsidian",
-		"refined_glowstone",
-		"netherite",
-		"lead",
-		"bronze",
-	];
-	blownPotato.forEach((material) => createBlownPotato(event, material));
 });

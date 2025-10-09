@@ -1,0 +1,11 @@
+{
+	id: "25149D9C960A0386"
+	group: "53410AFB40F85BA5"
+	order_index: 2
+	filename: "infinity"
+	title: "Infinity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}
