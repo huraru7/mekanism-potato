@@ -1,4 +1,4 @@
-Onevent("recipes", (event) => {
+onEvent("recipes", (event) => {
 	event.shaped(
 		"kubejs:compressed_potatos",
 		[
@@ -28,4 +28,21 @@ Onevent("recipes", (event) => {
 			A: "kubejs:compressed_potatos",
 		}
 	);
+
+	event.shaped(
+		"kubejs:potato_block",
+		[
+			// ポテトインゴット
+			"AAA",
+			"AAA",
+			"AAA",
+		],
+		{
+			A: "kubejs:potato_ingot",
+		}
+	);
+	event.shapeless("9x kubejs:potato_ingot", [
+		// ポテトブロックを分解
+		"kubejs:potato_block",
+	]);
 });

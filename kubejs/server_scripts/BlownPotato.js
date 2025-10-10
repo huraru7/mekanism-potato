@@ -58,4 +58,17 @@ onEvent("recipes", (event) => {
 		"bronze",
 	];
 	materials.forEach((material) => blownPotatoRecipe(event, material));
+
+	event.custom({
+		//反物質吹き込みポテト
+		type: "extendedcrafting:shaped_table",
+		tier: 2,
+		pattern: ["AAAAA", "A B A", "ABCBA", "A B A", "AAAAA"],
+		key: {
+			A: "minecraft:potato",
+			B: "mekaevolution:infinite_control_circuit",
+			C: "mekanism:pellet_antimatter",
+		},
+		result: "kubejs:antimatter_blown_potato",
+	});
 });

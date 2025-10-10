@@ -70,19 +70,6 @@ onEvent("recipes", (event) => {
 		result: "compactmekanismmachines:compact_fission_reactor",
 	});
 
-	event.custom({
-		//反物質吹き付けポテト
-		type: "extendedcrafting:shaped_table",
-		tier: 2,
-		pattern: ["AAAAA", "A B A", "ABCBA", "A B A", "AAAAA"],
-		key: {
-			A: "minecraft:potato",
-			B: "mekaevolution:infinite_control_circuit",
-			C: "mekanism:pellet_antimatter",
-		},
-		result: "kubejs:antimatter_blown_potato",
-	});
-
 	event.remove({ id: "extendedcrafting:ultimate_singularity" });
 	event.recipes.extendedcrafting.shapeless_table({
 		//アルティメットシンギュラリティ
