@@ -33,6 +33,11 @@ onEvent("item.registry", (event) => {
 		.displayName("Potato Stick")
 		.texture("kubejs:item/potato_stick")
 		.group("kubejs.my_items");
+	event
+		.create("potato_control_circuit") // ジャガイモの基盤
+		.displayName("Potato Control Circuit")
+		.texture("kubejs:item/potato_control_circuit")
+		.group("kubejs.my_items");
 });
 
 onEvent("block.registry", (event) => {
